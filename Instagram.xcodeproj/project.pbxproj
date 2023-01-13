@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		645E407A2971C73A007BBA5E /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E40792971C73A007BBA5E /* CaptureView.swift */; };
 		6494465F2961F96F001F4930 /* InstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494465E2961F96F001F4930 /* InstagramApp.swift */; };
 		649446612961F96F001F4930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649446602961F96F001F4930 /* ContentView.swift */; };
 		649446632961F96F001F4930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649446622961F96F001F4930 /* Assets.xcassets */; };
@@ -14,6 +15,13 @@
 		649446702961F96F001F4930 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494466F2961F96F001F4930 /* InstagramTests.swift */; };
 		6494467A2961F96F001F4930 /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649446792961F96F001F4930 /* InstagramUITests.swift */; };
 		6494467C2961F96F001F4930 /* InstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494467B2961F96F001F4930 /* InstagramUITestsLaunchTests.swift */; };
+		6494468A2961FBD5001F4930 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649446892961FBD5001F4930 /* HomeFeedView.swift */; };
+		6494468C2961FC21001F4930 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494468B2961FC21001F4930 /* ExploreView.swift */; };
+		6494468E2961FC2D001F4930 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494468D2961FC2D001F4930 /* CameraView.swift */; };
+		649446902961FC33001F4930 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494468F2961FC33001F4930 /* NotificationView.swift */; };
+		649446922961FC3A001F4930 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649446912961FC3A001F4930 /* ProfileView.swift */; };
+		64B6B9AE296279170075F70F /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6B9AD296279170075F70F /* StoriesView.swift */; };
+		64B6B9B0296282B30075F70F /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6B9AF296282B30075F70F /* PostsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		645E40792971C73A007BBA5E /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
 		6494465B2961F96F001F4930 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6494465E2961F96F001F4930 /* InstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramApp.swift; sourceTree = "<group>"; };
 		649446602961F96F001F4930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,13 @@
 		649446752961F96F001F4930 /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649446792961F96F001F4930 /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		6494467B2961F96F001F4930 /* InstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		649446892961FBD5001F4930 /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		6494468B2961FC21001F4930 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		6494468D2961FC2D001F4930 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		6494468F2961FC33001F4930 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		649446912961FC3A001F4930 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		64B6B9AD296279170075F70F /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		64B6B9AF296282B30075F70F /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		645E40782971C6E8007BBA5E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				6494468D2961FC2D001F4930 /* CameraView.swift */,
+				645E40792971C73A007BBA5E /* CaptureView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		649446522961F96F001F4930 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +119,7 @@
 		6494465D2961F96F001F4930 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				649446882961FBC4001F4930 /* Views */,
 				6494465E2961F96F001F4930 /* InstagramApp.swift */,
 				649446602961F96F001F4930 /* ContentView.swift */,
 				649446622961F96F001F4930 /* Assets.xcassets */,
@@ -125,6 +151,28 @@
 				6494467B2961F96F001F4930 /* InstagramUITestsLaunchTests.swift */,
 			);
 			path = InstagramUITests;
+			sourceTree = "<group>";
+		};
+		649446882961FBC4001F4930 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				645E40782971C6E8007BBA5E /* Camera */,
+				64B6B9AC296279050075F70F /* Home */,
+				6494468B2961FC21001F4930 /* ExploreView.swift */,
+				6494468F2961FC33001F4930 /* NotificationView.swift */,
+				649446912961FC3A001F4930 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64B6B9AC296279050075F70F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				649446892961FBD5001F4930 /* HomeFeedView.swift */,
+				64B6B9AF296282B30075F70F /* PostsView.swift */,
+				64B6B9AD296279170075F70F /* StoriesView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B6B9AE296279170075F70F /* StoriesView.swift in Sources */,
 				649446612961F96F001F4930 /* ContentView.swift in Sources */,
 				6494465F2961F96F001F4930 /* InstagramApp.swift in Sources */,
+				6494468C2961FC21001F4930 /* ExploreView.swift in Sources */,
+				6494468E2961FC2D001F4930 /* CameraView.swift in Sources */,
+				6494468A2961FBD5001F4930 /* HomeFeedView.swift in Sources */,
+				649446922961FC3A001F4930 /* ProfileView.swift in Sources */,
+				649446902961FC33001F4930 /* NotificationView.swift in Sources */,
+				64B6B9B0296282B30075F70F /* PostsView.swift in Sources */,
+				645E407A2971C73A007BBA5E /* CaptureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +475,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Instagram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "need use your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +507,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Instagram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "need use your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
